@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './index.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -33,7 +33,7 @@ class Navbar extends React.Component {
             <nav className="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
-                        <h1>Get Lunch</h1>
+                        <h1>Get Dinner</h1>
                     </a>
 
                     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"
